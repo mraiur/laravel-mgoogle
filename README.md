@@ -15,6 +15,16 @@ Run vendor:publish to generate the app/mgoogle.php configuration file.
     php artisan vendor:publish
 ```
 
+This package simplifies the Google API usage to:
+
+```
+    $MGAPI = new MGAPI();
+    if( $MGAPI ) {
+        $CalendarAPI = $MGAPI->calendar();
+        $calendars = $CalendarAPI->getCalendars();
+    }
+```
+
 
 More in :
 
