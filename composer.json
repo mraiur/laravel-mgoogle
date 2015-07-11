@@ -1,0 +1,21 @@
+{
+    "name": "mraiur/laravel-mgoogle",
+    "type": "facade",
+    "homepage": "http://google.mraiur.com",
+    "require": {
+        "mraiur/google": "dev-master"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Nikolai Ivanov",
+            "email": "mraiur@gmail.com"
+        }
+    ],
+    "autoload":{
+        "psr-4":{
+            "MGoogleLaravel\\": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}
